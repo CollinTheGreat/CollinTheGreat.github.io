@@ -1,0 +1,11 @@
+h1{
+	width: 500px;
+	margin: 100px auto;
+    transition: all 1s ease;
+    color: blue;
+}
+
+h1:hover{
+	font-size: 100px;
+
+}
