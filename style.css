@@ -1,8 +1,9 @@
 h1{
-	width: 500px;
+	width: 1000px;
 	margin: 100px auto;
     transition: all 1s ease;
     color: blue;
+    text-align: center;
 }
 
 h1:hover{
