@@ -1,22 +1,28 @@
-
+html{
+	height: 100%;
+	background-color: green;
+}
 .images div{
 	width: 59%;
 	display: inline-block;
 	text-align: center;
 	height: inherit;
 	vertical-align: middle;
+	
 }
 
 h1{
-	display: inline;
+	height: 100px;
+	display: inline-block;
 	color: blue;
-	font-size: 20px;
+	font-size: 10px;
 	font-weight: bold;
-	transition: 1s all ease;
+	transition: 1s all linear;
 }
 h1:hover{
-	font-size: 50px;
-	transform: rotate(180deg);
+	font-size: 200px;
+	
+    transform: rotate(1420deg); /* Standard syntax */
 
 }
 
