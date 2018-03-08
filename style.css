@@ -21,7 +21,6 @@ h1{
 }
 h1:hover{
 	font-size: 200px;
-	
     transform: rotate(1420deg); /* Standard syntax */
 
 }
@@ -38,3 +37,12 @@ img{
 	float: right;
 	transform: scaleX(-1);
 }
+
+.flyer{
+	height: 100px;
+	width:300px;
+	font-size: 40px;
+	color:white;
+	position: fixed;
+}
+
