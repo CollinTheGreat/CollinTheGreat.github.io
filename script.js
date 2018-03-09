@@ -1,6 +1,9 @@
 $(document).ready(function(){
-    animateDiv();
-    
+    animateFlyers($('.flyer1'), 100 + Math.random()*150);
+    animateFlyers($('.flyer2'), 100 + Math.random()*150);
+    animateFlyers($('.flyer3'), 100 + Math.random()*150);
+    animateFlyers($('.flyer4'), 100 + Math.random()*150);
+
 });
 
 function makeNewPosition(){
@@ -16,10 +19,10 @@ function makeNewPosition(){
     
 }
 
-function animateDiv(){
+function animateFlyers(a, b){
     var newq = makeNewPosition();
-    $('.flyer').animate({ top: newq[0], left: newq[1] }, function(){
-      animateDiv();        
+    a.animate({ top: newq[0], left: newq[1] },b, function(){
+      animateFlyers(a,b);        
     });
     
 };
