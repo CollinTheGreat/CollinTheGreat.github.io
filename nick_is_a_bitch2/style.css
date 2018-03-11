@@ -1,0 +1,13 @@
+.layer1{
+	background-image:url('/nick_pic.jpg') repeat;
+}
+.layer2{
+	background-image:url('/nick_pic.jpg') repeat;
+}
+.text{
+	width: 600px;
+	margin:0 auto;
+}
+h1{
+	font-size: 64px;
+}
