@@ -1,8 +1,8 @@
 $(document).ready(function(){
-    animateFlyers($('.flyer1'), 100 + Math.random()*150);
-    animateFlyers($('.flyer2'), 100 + Math.random()*150);
-    animateFlyers($('.flyer3'), 100 + Math.random()*150);
-    animateFlyers($('.flyer4'), 100 + Math.random()*150);
+    animateFlyers($('.flyer1'), 500 + Math.random()*150);
+    animateFlyers($('.flyer2'), 500 + Math.random()*150);
+    animateFlyers($('.flyer3'), 500 + Math.random()*150);
+    animateFlyers($('.flyer4'), 500 + Math.random()*150);
 
 });
 
